@@ -7,6 +7,7 @@ Mini Star Wars card game. You got one card of a planet containing the following 
    - Normalize CSS
    - Create React App
    - CSS Modules
+   - React Content Loader
  - [Google Fonts](https://fonts.google.com/)
  - [SWAPI API](https://swapi.co/)
 
