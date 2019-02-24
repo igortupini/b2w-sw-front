@@ -15,6 +15,7 @@ class App extends Component {
 	this.nextCard = this.nextCard.bind(this)
   }
 
+  // Fetch 10 new planets from API
   fetchData(){
 	  axios.get(API_URL+'planets')
 	  .then(res => {
