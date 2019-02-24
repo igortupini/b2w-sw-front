@@ -31,7 +31,6 @@ class App extends Component {
 			}
 	  })
 		.catch(e => console.error(e))
-		console.log(this.state.planetData)
   }
 
   nextCard(){
