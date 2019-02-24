@@ -5,7 +5,8 @@ import styles from './Card.module.css'
 const LightSaberLoading = () => {
 
     return (
-        <ContentLoader 
+        <ContentLoader
+            ariaLabel={false}
 		    height={20}
 		    width={200}
 		    speed={1}
@@ -23,6 +24,7 @@ const ListLoading = () => {
     return (
     
         <ContentLoader 
+            ariaLabel={false}
 	    	height={200}
 	    	width={300}
 	    	speed={1}
