@@ -55,7 +55,7 @@ const EmptyCard = props => {
 const Card = props => {
     let planet = props.planet;
     return props.planet ? (
-        <div className={styles.container} style={{ minHeight: props.height }}>
+        <div className={styles.container}>
             <div className={styles.title}>
                 <h1>{planet.name}</h1>
             </div>

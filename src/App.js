@@ -58,7 +58,7 @@ class App extends Component {
         return (
             <div className={styles.wrapper}>
                 <Flip bottom spy={cardCounter}>
-                    <Card planet={planets[0]} heigth="800" />
+                    <Card planet={planets[0]} />
                 </Flip>
                 <button onClick={nextCard}>Next</button>
             </div>
