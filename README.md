@@ -1,24 +1,21 @@
+# Star Wars Card Game - B2W Challenge
+Mini Star Wars card game. You get one planet card containing the following details: **planet name**, **population**, **climate**, **terrain**, **apparitions in films**. Draw new cards whenever the **Next** button is pressed.
+This game consumes data from the Star Wars API ([SWAPI](https://swapi.co/)).
 
-# Star Wars Card Game - B2W
-Mini Star Wars card game. You got one card of a planet containing the following details: **planet name**, **population**, **climate**, **terrain**, **apparitions in films**. You can draw new cards whenever you want by pressing the **Next** button.
-
-## Stack
+## Technologies
  - ReactJS
    - Axios
-   - Normalize CSS
    - Create React App
    - CSS Modules
    - React Content Loader
- - [Google Fonts](https://fonts.google.com/)
- - [SWAPI API](https://swapi.co/)
+   - React Reveal
 
 ## Requirements
-Not yet tested in other versions or systems.
-- NodeJS (10.15.1)
-- npm (6.8.0)
-- Linux
+- NodeJS (~10.15.1)
+- npm (~6.8.0)
+
 ## Setup
-Clone the repository and go to the destination folder.
+Clone this repository and go to the destination folder.
 
 Install modules:
 `npm install`
@@ -27,7 +24,6 @@ Run:
 `npm start`
 
 ## How it works?
-Every time the page is loaded a`GET` request is sent API fetching the nº of planets available. Randomly 10 planets are picked and its details storaged inside an array.
-The card always display the first array item, which contains an object describing planet details. When **next** button is pressed, the item being displayed is removed from the array and the card component re-rendered on the screen, showing a new planet card.
-
-Only when one item is remaining in the array, the application fetch new planets from API.
+Every time the page is loaded a`GET` request is sent to the API, fetching the nº of planets available. Randomly 10 planets are picked and its details stored inside a deck-like array.
+The application should always display the first card from the deck, which contains the planet's descriptions. When **next** button is pressed, the card being displayed is removed from the deck and the application reveals the next card.
+If only one card is remaining in the deck, the application fetch new cards from the API.
