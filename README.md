@@ -1,4 +1,4 @@
-# Star Wars Card Game - B2W Challenge
+# 🚀 Star Wars Card Game - B2W Challenge
 Mini Star Wars card game. You get one planet card containing the following details: **planet name**, **population**, **climate**, **terrain**, **apparitions in films**. Draw new cards whenever the **Next** button is pressed.
 This game consumes data from the Star Wars API ([SWAPI](https://swapi.co/)).
 
